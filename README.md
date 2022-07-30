@@ -28,7 +28,7 @@ Solução para o agronegócio aonde serão coletados dados via sensores de tempe
 
 - ``Instale o Docker``
 - ``Com o Docker Instalado através do terminal de um docker-compose no arquivo .yml para instalar todas as dependências do RabbitMQ
-para ser possível acessar local pelo link http://localhost:15672/ `
+para ser possível acessar local pelo link http://localhost:15672/ ``
 - ``Acessar o RabbitMQ com Username admin e Password 123546``
 - ``Com InteliJ IDEA abra o projeto microservico-produtor-fila-mensagem-e-api" para conseguir fazer requisição para fila``
 - ``É opcional executar o projeto consumer-drone nesse momento. Você pode executar o projeto para "coletorDados" para ir alimentando a fila randomicamente, enviar via Postman ou pela InterfaceWeb``
