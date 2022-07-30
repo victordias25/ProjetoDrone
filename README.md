@@ -45,7 +45,7 @@ para ser possível acessar local pelo link http://localhost:15672/ `
 ## ✔️ Autores
 
 - `` Ali Tannouri Neto``
-- ``Matheus Ciribel`
+- ``Matheus Ciribel``
 - ``Pedro Henrique Rossi``
 - ``Victor Augusto Pereira Dias Nicola``
 
