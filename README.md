@@ -23,6 +23,7 @@ Solução para o agronegócio aonde serão coletados dados via sensores de tempe
 - `Funcionalidade 4` `Microserviço "microservico-produtor-fila-mensagem-e-api" contém nossa API e toda lógica para receber os dados seja interface web, postman ou random, e enviar para fila do rabbitmq. 
 - `Funcionalidade 5` `Microserviço "consumer-drone" contém nosso consumidor da mensagem e a lógica de alerta por e-mail caso a temperatura seja >= 35 ou  <= 0 e umidade <= 15.
 - `Funcionalidade 6` `Projeto "librabbitmq" contém o DTO com os atributos do drone que são usados pelo microserviço produtor e consumidor.
+- `Funcionalidade 7` `A cada 10 segundos os dados são coletados e enviado para fila. Após 1 minuto com Temperatura (>= 35 ou <=0) ou (Umidade <= 15%) é disparado um e-mail.
 
 ## ✔️ Como executar o projeto
 
