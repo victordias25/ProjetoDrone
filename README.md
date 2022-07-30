@@ -21,7 +21,7 @@ Solução para o agronegócio aonde serão coletados dados via sensores de tempe
 - `Funcionalidade 2` `Coleta de Dados Random: Através do projeto "coletorDados" os dados são gerados automaticamente e enviado para fila.
 - `Funcionalidade 3` `Coleta de Dados Postman: Através do Postman você pode enviar os dados fazendo um PUT para o link: http://localhost:8080/drone.
 - `Funcionalidade 4` `Microserviço "microservico-produtor-fila-mensagem-e-api" contém nossa API e toda lógica para receber os dados seja interface web, postman ou random, e enviar para fila do rabbitmq. 
-- `Funcionalidade 5` `Microserviço "consumer-drone" contém nosso consumidor da mensagem e a lógica de alerta do por e-mail caso a temperatura seja >= 35 ou  <= 0 e umidade <= 15.
+- `Funcionalidade 5` `Microserviço "consumer-drone" contém nosso consumidor da mensagem e a lógica de alerta por e-mail caso a temperatura seja >= 35 ou  <= 0 e umidade <= 15.
 - `Funcionalidade 6` `Projeto "librabbitmq" contém o DTO com os atributos do drone que são usados pelo microserviço produtor e consumidor.
 
 ## ✔️ Como executar o projeto
