@@ -48,6 +48,7 @@ para ser possível acessar local pelo link http://localhost:15672/ ``
 - ``Ali Tannouri Neto``
 - ``Matheus Ciribel``
 - ``Pedro Henrique Rossi``
+- ``Victor Alves Bugueno``
 - ``Victor Augusto Pereira Dias Nicola``
 
 ## ✔️ Link do Projeto Rodando
