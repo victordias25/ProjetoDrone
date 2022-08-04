@@ -11,9 +11,7 @@ Solução para o agronegócio aonde serão coletados dados via sensores de tempe
 
 - `` A cada 10 segundos são enviados para o message broker os dados de temperatura e umidade capturado naquele instante.``
 - `` Atributos do Drone: id_drone (Identificador do Drone) , Latitude e longitude, Temperatura (-25º até 40º), Umidade (0% - 100%), Ativar rastreamento (ligada-desligada).``
-- `` O microsserviço deve enviar um alerta por email quando em 1 minuto:
-        a. Temperatura (>= 35 ou <=0) ou (Umidade <= 15%).
-        b. Envie por e-mail o id_drone e os valores capturados. ``
+- `` O microsserviço deve enviar um alerta por email quando em 1 minuto: Temperatura (>= 35 ou <=0) ou (Umidade <= 15%) e será enviado um e-mail com o id_drone e os valores capturados. ``
 
 ## 🔨 Funcionalidades do projeto
 
