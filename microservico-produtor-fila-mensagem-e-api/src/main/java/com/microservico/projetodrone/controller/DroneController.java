@@ -1,5 +1,4 @@
 package com.microservico.projetodrone.controller;
-
 import com.microservico.projetodrone.service.RabbitmqService;
 import dto.DroneDto;
 import constantes.RabbitmqConstantes;
@@ -7,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 @RequestMapping(value = "drone")
@@ -31,7 +29,6 @@ public class DroneController {
     System.out.println("Data: " + droneDto.getData());
     System.out.println("Hora: " + droneDto.getHora());
     System.out.println("------------------------");
-    //Thread.sleep(10000);
     this.rabbitmqService.enviaMensagem(RabbitmqConstantes.FILA_DRONE, droneDto);
     return new ResponseEntity(HttpStatus.OK);
 

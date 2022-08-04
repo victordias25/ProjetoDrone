@@ -8,10 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 
 public class DroneApplication {
-
   public static void main(String[] args) throws InterruptedException {
     SpringApplication.run(DroneApplication.class, args);
-
   }
-
 }

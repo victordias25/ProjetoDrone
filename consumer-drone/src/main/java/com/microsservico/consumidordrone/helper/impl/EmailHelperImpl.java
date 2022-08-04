@@ -19,13 +19,9 @@ public class EmailHelperImpl implements EmailHelper {
     @Override
     public void sendEmail() {
         SimpleMailMessage msg = new SimpleMailMessage();
-
         msg.setTo(emailToSend);
-
         msg.setSubject("Alerta Drone");
         msg.setText("Hello World \n Spring Boot Email");
-
         sender.send(msg);
-
     }
 }

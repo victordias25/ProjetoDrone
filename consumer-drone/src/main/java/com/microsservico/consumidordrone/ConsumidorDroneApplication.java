@@ -5,10 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ConsumidorDroneApplication {
-
-  public static void main(String[] args) {
-    SpringApplication.run(ConsumidorDroneApplication.class, args);
-  }
+    public static void main(String[] args) {
+        SpringApplication.run(ConsumidorDroneApplication.class, args);
+    }
 }
 
 
