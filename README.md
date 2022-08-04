@@ -15,13 +15,13 @@ Solução para o agronegócio aonde serão coletados dados via sensores de tempe
 
 ## 🔨 Funcionalidades do projeto
 
-- `Funcionalidade 1` Coleta de Dados via Interface Web: Através da interface Web no projeto "InterfaceWeb" você consegue enviar requisição para fila. (Existe a validação via JS de Temperatura (-25º até 40º), Umidade (0% - 100%)).
-- `Funcionalidade 2` Coleta de Dados Random: Através do projeto "coletorDados" os dados são gerados automaticamente e enviado para fila a cada 10 segundos. (Os dados gerados randômico de Temperatura (-25º até 40º), Umidade (0% - 100%)).
+- `Funcionalidade 1` Coleta de Dados via Interface Web: Através da interface Web no projeto "InterfaceWeb" você consegue enviar requisição para fila. (Existe a validação via JS de Temperatura (-25º até 40º) e Umidade (0% - 100%)).
+- `Funcionalidade 2` Coleta de Dados Random: Através do projeto "coletorDados" os dados são gerados automaticamente e enviado para fila a cada 10 segundos. (Os dados gerados randômico de Temperatura (-25º até 40º) e Umidade (0% - 100%)).
 - `Funcionalidade 3` Coleta de Dados Postman: Através do Postman você pode enviar os dados fazendo um PUT para o link: http://localhost:8080/drone.
 - `Funcionalidade 4` Microserviço "microservico-produtor-fila-mensagem-e-api" contém nossa API e toda lógica para receber os dados seja interface web, postman ou random, e enviar para fila do rabbitmq. 
 - `Funcionalidade 5` Microserviço "consumer-drone" contém nosso consumidor da mensagem e a lógica de alerta por e-mail caso a temperatura seja >= 35 ou  <= 0 e umidade <= 15.
 - `Funcionalidade 6` Projeto "librabbitmq" contém o DTO com os atributos do drone que são usados pelo microserviço produtor e consumidor.
-- `Funcionalidade 7` A cada 10 segundos os dados são coletados e enviado para fila. Após 1 minuto com Temperatura (>= 35 ou <=0) ou (Umidade <= 15%) é disparado um e-mail.
+- `Funcionalidade 7` A cada 10 segundos os dados são coletados e enviado para fila. Após 1 minuto com Temperatura (>= 35 ou <=0) ou Umidade (<= 15%) é disparado um e-mail.
 
 ## ✔️ Como executar o projeto
 
