@@ -55,4 +55,5 @@ para ser possível acessar local pelo link http://localhost:15672/ ``
 https://drive.google.com/drive/folders/1dHUejJPJQX2rZwQVwWaVc1r-j27Bvp4C?usp=sharing
 
 
-
+## ✔️ Print do E-mail com ID, Temperatura e Umidade do Drone
+<img src=”[caminho até a imagem”](https://github.com/victordias25/ProjetoDrone/DroneE-mail.png)>
